@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LearnAutomation">
+
+  <test name="Regression">
+    <classes> 
+      <class name="jan15_seleniumgrid.MyFirstTestNG2"/>
+      <class name="jan15_seleniumgrid.SeleniumWithTestNG"/>
+      <class name="jan15_seleniumgrid.MyFirstTestNG"/>
+      <class name="jan15_seleniumgrid.AssertDemo"/>     
+    </classes>
+  </test> 
+  
+</suite> 

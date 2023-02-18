@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LearnAutomation">
+
+  <test name="TestNGBasics2">
+    <classes> 
+      <class name="jan15_seleniumgrid.MyFirstTestNG2"/> 
+    </classes>
+  </test> 
+  
+   <test name="TestNGWithSelenium">
+    <classes>  
+      <class name="jan15_seleniumgrid.SeleniumWithTestNG"/>
+    </classes>
+  </test> 
+  
+   <test name="TestNGBasics1">
+    <classes> 
+      <class name="jan15_seleniumgrid.MyFirstTestNG"/>
+    </classes>
+  </test> 
+  
+   <test name="AssertExample">
+    <classes> 
+      <class name="jan15_seleniumgrid.AssertDemo"/>     
+    </classes>
+  </test> 
+  
+</suite> 
