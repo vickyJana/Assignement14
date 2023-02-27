@@ -10,7 +10,14 @@ public class CustomDataProvider {
 		Object[][] arr = ExcelReader.getDataFromSheet("Login");
 		return arr;
 	}
-
+	
+	
+	@DataProvider(name = "loginDetails1")
+	public static Object[][] getData1() 
+	{
+		Object[][] arr = ExcelReader.getDataFromSheet("laLogin");
+		return arr;
+	}
 	
 
 }
