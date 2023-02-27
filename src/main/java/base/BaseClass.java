@@ -15,7 +15,7 @@ public class BaseClass {
 	//@BeforeClass
 	public void setupBrowser() {
 		System.out.println("Log Info - Setting Up Browser");
-		driver = BrowserFactory.startBrowser(ConfigReader.getProperty("browser"), ConfigReader.getProperty("URL"));
+		driver = BrowserFactory.startBrowser(ConfigReader.getProperty("browser"), ConfigReader.getProperty("learnAutomationURL"));
 		System.out.println("Log Info - Application is up and Running");
 	}
 	
